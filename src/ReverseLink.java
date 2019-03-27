@@ -2,7 +2,7 @@ import common.ListNode;
 import common.ListNodeUtil;
 import org.junit.Test;
 
-public class Link {
+public class ReverseLink {
 
     private ListNode reverse(ListNode list) {
         if (list == null || list.next == null) {
