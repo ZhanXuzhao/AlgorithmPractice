@@ -1,15 +1,15 @@
-package leetcode;
+package problems;
 
-import common.ListNode;
-import common.ListNodeUtil;
+import utils.ListNode;
+import utils.ListNodeUtil;
 import org.junit.Test;
 
 public class P021 {
-//    public common.ListNode mergeTwoLists(common.ListNode l1, common.ListNode l2) {
-//        common.ListNode dummyHead = new common.ListNode(0);
-//        common.ListNode pd = dummyHead;
-//        common.ListNode p1 = l1;
-//        common.ListNode p2 = l2;
+//    public utils.ListNode mergeTwoLists(utils.ListNode l1, utils.ListNode l2) {
+//        utils.ListNode dummyHead = new utils.ListNode(0);
+//        utils.ListNode pd = dummyHead;
+//        utils.ListNode p1 = l1;
+//        utils.ListNode p2 = l2;
 //        while (p1 != null || p2 != null) {
 //            if (p1 == null) {
 //                p2 = copyValue(pd, p2);
@@ -55,7 +55,7 @@ public class P021 {
         return p.next;
     }
 
-//    public common.ListNode mergeTwoLists(common.ListNode l1, common.ListNode l2) {
+//    public utils.ListNode mergeTwoLists(utils.ListNode l1, utils.ListNode l2) {
 //        if(l1 == null) return l2;
 //        if(l2 == null) return l1;
 //        if (l1.val < l2.val) {

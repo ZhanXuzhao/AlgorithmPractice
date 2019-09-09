@@ -1,9 +1,8 @@
-package leetcode;
+package problems;
 
 import org.junit.Test;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 public class P022 {

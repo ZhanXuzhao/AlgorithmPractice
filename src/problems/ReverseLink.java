@@ -1,5 +1,7 @@
-import common.ListNode;
-import common.ListNodeUtil;
+package problems;
+
+import utils.ListNode;
+import utils.ListNodeUtil;
 import org.junit.Test;
 
 public class ReverseLink {

@@ -1,7 +1,7 @@
-package leetcode;
+package problems;
 
-import common.ListNode;
-import common.ListNodeUtil;
+import utils.ListNode;
+import utils.ListNodeUtil;
 import org.junit.Test;
 
 public class P019_RemoveNthNodeFromEndofList {
@@ -25,9 +25,9 @@ public class P019_RemoveNthNodeFromEndofList {
 
     @Test
     public void test() {
-//        common.ListNode listNode = common.ListNodeUtil.createListNode(0, 1, 2, 3, 4, 5);
+//        utils.ListNode listNode = utils.ListNodeUtil.createListNode(0, 1, 2, 3, 4, 5);
         ListNode listNode = ListNodeUtil.createListNode(0, 1);
-//        common.ListNode listNode = common.ListNodeUtil.createListNode(0);
+//        utils.ListNode listNode = utils.ListNodeUtil.createListNode(0);
         ListNodeUtil.printListNode(listNode);
         ListNodeUtil.printListNode(removeNthFromEnd(listNode, 1));
     }
